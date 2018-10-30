@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ['tutorial-corey-django-bglynch.c9users.io']
 # Application definition
 
 INSTALLED_APPS = [
+    'blog.apps.BlogConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
