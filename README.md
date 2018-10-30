@@ -42,4 +42,10 @@ echo db.sqlite3 >> .gitignore
 start the server
 ```
 run
+```  
+
+## 02. 
+Createa a blog app
+```
+python manage.py startapp blog
 ```
