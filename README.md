@@ -45,7 +45,12 @@ run
 ```  
 
 ## 02. 
-Createa a blog app
+Create a blog app and set up urls folder
 ```
 python manage.py startapp blog
+touch blog/blog_urls.py
 ```
+create 2no. basic views that return http responses  
+add urls in the blog app to point to the views  
+update the project urls to include the blog.blog_urls
+
